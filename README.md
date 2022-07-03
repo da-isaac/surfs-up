@@ -8,6 +8,10 @@ The client, W. Avy, has asked for help analyzing weather data for Oahu in order 
 ## Results
 
 ### Differences in Weather between June and December
+![june_stats](Resources/June_Temps.PNG)
+
+![dec_stats](Resources/Dec_Temps.PNG)
+
 * There were almost 200 less temperature values collected for December than for June in the dataset. This sample size could be increased in the future to generate more reliable temperatures, but it still is a decent size to analyze.
 * The average temperature for both June and December is only about 3 degrees apart, suggesting that the temperature stays pretty consistent year-round. 
 * The minimum temperature recorded for December was 56, 8 degrees cooler than the minimum temperature recorded for June (64). As expected, December has cooler temperatures than June.

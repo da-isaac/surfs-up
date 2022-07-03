@@ -8,8 +8,9 @@ The client, W. Avy, has asked for help analyzing weather data for Oahu in order 
 ## Results
 
 ### Differences in Weather between June and December
+#### June Stats
 ![june_stats](Resources/June_Temps.PNG)
-
+#### December Stats
 ![dec_stats](Resources/Dec_Temps.PNG)
 
 * There were almost 200 less temperature values collected for December than for June in the dataset. This sample size could be increased in the future to generate more reliable temperatures, but it still is a decent size to analyze.

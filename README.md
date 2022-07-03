@@ -28,8 +28,7 @@ june_prec =  list(np.ravel(june_prec))
 june_prec_df = pd.DataFrame(june_prec)
 june_prec_df.describe()
 ```
-
-*
+* 
 ```
 dec_prec = session.query(Measurement.prcp).filter(extract('month', Measurement.date)==12).all()
 dec_prec =  list(np.ravel(dec_prec))

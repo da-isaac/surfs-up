@@ -21,6 +21,7 @@ The client, W. Avy, has asked for help analyzing weather data for Oahu in order 
 While the temperatures in Oahu fluctuate throughout the year, the variation recorded is not enough to justify concerns that ice cream won't sell due to temperature. There is reasonable evidence to suggest that temperatures will remain optimal year-round for sales to occur. There will likely be some ebbs and flows of sales throughout the year, and temperature may play a small part in that, but it won't be the only factor W. Avy and his investors will need to consider.
 
 The following are two additional queries that could be used to better analyze June and December weather impact by analyzing precipitation data.
+
 * 
 ```
 june_prec = session.query(Measurement.prcp).filter(extract('month', Measurement.date)==6).all()
